@@ -1,3 +1,5 @@
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {
@@ -17,24 +19,25 @@
 
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.phones {
+.product-img {
   position: relative;
 }
-.phone {
+.product-img {
   position: relative;
   max-width: 80%;
   margin: 3rem auto -12rem;
 }
-.phone + .phone {
+.product-img + .product-img {
   display: none;
 }
 
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
-  background-image: url('../images/values-bg.jpg');
-  background-size: cover;
-  color: #fff;
+  //background-image: url('../images/values-bg.jpg');
+  //background-size: cover;
+  background-color: #EEEEEE;
+  color: #E26A6A;
   padding-bottom: 5rem;
 }
 .value-multiplier {
@@ -58,7 +61,7 @@
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .categories {
-  background-image: url('../images/values-bg.jpg');
+  //background-image: url('../images/values-bg.jpg');
   background-size: cover;
   color: #fff;
 }
@@ -76,14 +79,14 @@
     text-align: left;
     height: 165px;
   }
-  .phone {
+  .product-img {
     position: absolute;
     top: -7rem;
     right: 3rem;
     max-height: 362px;
     z-index: 3;
   }
-  .phone + .phone {
+  .product-img + .product-img {
     top: -6rem;
     display: block;
     max-width: 73.8%;
@@ -115,12 +118,12 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .phone {
+  .product-img {
     top: -14rem;
     right: 5rem;
     max-height: 510px;
   }
-  .phone + .phone {
+  .product-img + .product-img {
     top: -12rem;
     max-height: 472px;
   }
@@ -135,16 +138,16 @@
     padding: 20rem 0 19rem;
   }
   .hero {
-    padding: 22rem 0;
+    padding: 11rem 0;
   }
   .hero-heading {
     font-size: 3.0rem;
   }
-  .phone {
-    top: -16rem;
+  .product-img {
+    top: 0rem;
     max-height: 615px;
   }
-  .phone + .phone {
+  .product-img + .product-img {
     top: -14rem;
     max-height: 570px;
   }
